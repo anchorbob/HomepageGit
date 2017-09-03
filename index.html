@@ -1,85 +1,229 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
   <head>
-    <title>Bo Zhang</title>
-	
-    <meta http-equiv="keywords" content="Bo Zhang,Homepage,Umich">
-    <meta http-equiv="description" content="this is my page">
-    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">    
-    <link rel="stylesheet" href="style.css" type="text/css"></link>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Bo Zhang's Homepage</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/grayscale.min.css" rel="stylesheet">
+
   </head>
-  
-  <body>
-    
 
-<table id="guide">  <!--导航栏-->
-    <tr>
-           <br/>                                                 
-             <td><a href="index.html" class="on"><span>Home</span></a></td>                                                 
-             <td><a href="about.html"><span>About</span></a></td>           
-             <td><a href="intern.html"><span>Intern</span></a></td> 
-             <td><a href="projects.html"><span>Projects</span></a></td>
-             <td><a href="ta.html"><span>TA EXPERIENCE</span></a></td>
-			       <td><a href="video.html"><span>video</span></a></td>
-      
-    </tr> 	
-</table> 
-      
+  <body id="page-top">
 
-<div id ="style5" >  <!--内容栏-->
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Bo Zhang</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="files/Bo_ZHANG_Resume.pdf">Resume</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-  <ul>
-		<table cellspacing=10 width = 1000px>
-			<tr >
-  			<td width = 200px> 
-          <font size =5 face="Palatino"> 
-            <li><b>Basic Information</b></li>
-           </font> 
-        </td>
-    </table>
+    <!-- Intro Header -->
+    <header class="masthead">
+      <div class="intro-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h1 class="brand-heading">Bo Zhang</h1>
+              <p class="intro-text">CPU Performance Analysis Engineer
+                <br>Actively looking for CPU Performance related jobs</p>
+              <a href="#about" class="btn btn-circle js-scroll-trigger">
+                <i class="fa fa-angle-double-down animated"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
 
-    <table cellspacing=10 width = 700px>
-      <tr height = "10">  <td rowspan = 7 align = "left"  width = 180px> <IMG src="./index/psu1.jpg" height=220></td>  <td> </td>  </tr>
-      
-      <tr>  <td align = "left" colspan =2 > <font size =4 face="Palatino">Bo Zhang</font> </td> </tr>
-      
-      <tr>   <td width = 50px>Tel: </td>  <td>(734) 546-5863</td></tr>
+    <!-- About Section -->
+    <section id="about" class="content-section text-left">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <h2>About me</h2>
+            <div>
+            <img src="img/bo.jpg" class="img-responsive">
+            </div>
+            <p>I got my master's degree in Department of Electrical and Computer Engineering in University of Michigan in Dec 2015.</p>
+            <p>
+            After that, I started my career in Oracle as a CPU Performance Engineer. I ran Java and Scala benchmarks on different platforms, evaluate their performance, analyze  and solve performance issues. The performance comparisons went 3 categories:
+            <ul class="list-group" style="padding-left: 50px">
+                <li>Performance on different platforms (like SPARC VS x86)</li>
+                <li>Performance on Emulation (Next-gen on FPGA VS Last-gem)</li>
+                <li>Performance on different OS (like Linux-SPARC VS Solaris-SPARC)</li>
+            </ul>
+            </p>
+            <p>
+            The issues I analyzed went across 3 levels:
+            <ul class="list-group" style="padding-left: 50px">
+                <li>Hardware design issues (micro-architect flaws, long latency event analysis)</li>
+                <li>JVM issues and JVM flags tuning</li>
+                <li>OS/kernel/call stack efficiency analysis</li>
+            </ul>  
+            </p>
+            <p>
+              I am an enthusiast of programming and movies. Any topics regarding programming, system performance and movies are welcome to discuss with me.
+            </p>
+            
+          </div>
+        </div>
+      </div>
+    </section>
 
-      <tr>   <td width = 50px>Email:</td>  <td>bo.zh.zhang@oracle.com</td>   </tr>
+    <!-- Education Section -->
+    <section id="education" class="content-section">
+        <div class="row">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>My Education</h2>
+                    <p>Master of Science in Electrical Engineering<br>
+          <a href="http://www.umich.edu"><em>University of Michigan</em></a>, Ann Arbor, Sept.2014-Dec.2015
+          <br><em>Relevant Courses:</em> <br>EECS470 Computer Architecture<br>EECS573 Micro-architecture<br>EECS461 Embedded Systems
+          <br>EECS598 Computer Vision<br>EECS423 Solid-State Device Laboratory
 
-      <tr>   <td width = 50px>Webpsite:</td>  <td><a href=http://www-personal.umich.edu/~gcbo>http://www-personal.umich.edu/~gcbo </a></td> </tr>
-
-      <tr>   <td width>CV:</td>  <td><a href=./index/Bo_Zhang_EE_Mas_CV.pdf>Click here to view (Last edited: April 19 2016)</a></td> </tr>
-
-    </table>
-  </ul>
-
-  <ul>
-    <table cellspacing=10 width = 1000px>
-      <tr>  <td align = "left"  colspan =2> <font size =5 face="Palatino"><li><b>Education Background </b></li></font></td>   </tr>
-
-      <tr > <td width = 70px>M.S.</td>  <td  width = 400>Electrical Engineering, University of Michigan, Ann Arbor</td> <td align = "left">Sept. 2014 - Dec. 2015 </td> </tr>
-
-      <tr > <td width = 70px>B.Eng.</td>  <td>Electrical Engineering, Shanghai Jiao Tong University</td>   <td align = "left">Sept. 2010 - Aug. 2014 </td> </tr>
-    </table>
-
-  </ul>
-
-  <ul>
-    <table cellspacing = 10 width = 1000px>
-      <tr> <td align = "left" colspan = 2> <font size = 5 face = "Palatino"><li><b>Work Experience </b></li></font></td>  </tr>
-       <tr > <td width = 200px>Hardware Engineer</td>  <td  width = 270>Oracle, Austin</td> <td align = "left"> April 2016 - Now</td> </tr>
-       <tr > <td width = 200px>Hardware Engineer Intern</td>  <td  width = 270>National Instrument, Austin</td> <td align = "left"> Summer 2015</td> </tr>
-    </table>
-  </ul>
+          <p>Bachelor of Science in Electrical Engineering<br>
+          <a href="http://www.http://umji.sjtu.edu.cn/"><em>University of Michigan - Shanghai Jiao Tong University Joint Institute</em></a>, Shanghai,2010-2014
+          <br><em>Relevant Courses:</em> <br>EECS370 Computer Organization<br>EECS270 Logic Design<br>EECS280 Programming and Intro to Data Structure
+          <br>EECS320 Semiconductor Devices<br>EECS373 Design of Microprocessor Based Systems 
 
 
+          <p><em>Programming Skills:</em> <br>C/C++, Java, Scala, Verilog, VHDL, perl, Matlab, HTML/CSS, LaTeX</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-</div> 
-</br>
-<?php
-    echo "This is a test";
-?>
-  <div class="Copyright">Copyright &copy; Bo Zhang &nbsp;&nbsp;&#8212;&nbsp;&nbsp; Last edited on April 19 2016</div>   
+    <!-- Projects Section -->
+    <section id="projects" class="content-section">
+        <div class="row">
+            <div class="container">
+                <div class="col-lg-7 col-lg-offset-2">
+                    <h2>Some Course Projects</h2>
+                    <phead><em><b>Network File Server</b></em></phead>
+          <p>In this project, we group implemented a network file server using knowledge of socket programming, 
+            remote procedure call, hierarchical file system and secure communication.
+            More specifically, we implemented <code>fs_session()</code> to start a new session for a client,
+                  <code>fs_create(),fs_delete()</code> to create/delete file or directory, 
+                  <code>fs_writedata(),fs_readdata()</code> to write/read data to/from a file.
+            We also used <code>lock()</code> to handle race condition between multiple clients.
+          </p>
+          <phead><em><b>MultiThread Programming </b></em></phead>
+          <p>In this project, we group implemented a thread library containing 
+             <code>lock(),unlock(),wait(),signal(),broadcast(),yield(),join()</code> for multithread programming using.
+             We used lower level library <code>&ltinterrupt&gt,&ltguard&gt</code> to guarantee the atomicity in kernal codes.
+                       In addition, we used opaque pointer idiom to add data/functions for a class without changing that class's header file. 
+             We also used <code>getcontext(),makecontext(),swapcontext()</code> to manipulate context of threads. 
+             Finally, we used our implemented thread library to support an SSTF(Shortest Seek Time First) disk scheduler.
+          </p>
+                    <phead><em><b>External Pager</b></em></phead>
+          <p>In this project, we implemented an external pager for allocating memories.
+             We implemented a fault handler to handle read/write fault and page fault. When page fault happens, we used clock 
+             algorithm to evict a virtual page from physical memory.
+          </p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="content-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>How to reach me</h2>
+            <p>Feel free to contact me if you want to know more! <br/>
+              Email to <a href="mailto:gcbo@umich.edu">gcbo@umich.edu</a>
+            </p>
+            <ul class="list-inline banner-social-buttons">
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/bo.zhang.7737769" class="btn btn-default btn-lg">
+                  <i class="fa fa-facebook fa-fw"></i>
+                  <span class="network-name">Facebook</span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://github.com/anchorbob" class="btn btn-default btn-lg">
+                  <i class="fa fa-github fa-fw"></i>
+                  <span class="network-name">Github</span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/bo-zhang-92364586/" class="btn btn-default btn-lg">
+                  <i class="fa fa-linkedin fa-fw"></i>
+                  <span class="network-name">LinkedIn</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+      <div class="container text-center">
+        <p>Copyright &copy; Bo Zhang 2017</p>
+              <p>This theme features stock photos by
+              <a href="http://gratisography.com/">Gratisography</a>
+              </p>
+      </div>
+
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/grayscale.min.js"></script>
+
   </body>
+
 </html>
